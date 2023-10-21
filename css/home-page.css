@@ -66,7 +66,11 @@ ul {
 }
 
 .button.second-button {
-    border: 2px solid white;
+    border: 2px solid white;   
+    height: 30px; 
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
 }
 
 .main-image {
@@ -147,4 +151,31 @@ ul {
     font-weight: 600;
     margin-left: 500px;
     margin-top: 30px;
+}
+
+/*This code contains the 4th section, which is for some random things*/
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.backround-fourth {
+    display: flex;
+    background-color: #3882f6;
+    align-content: center;
+    padding: 30px 100px;
+    border-radius: 20px;
+    justify-content: center;
+    width: 800px;
+    gap: 150px;
+}
+
+.fourth-text {
+    color: white;
+}
+
+.random {
+    font-weight: 600;
 }
