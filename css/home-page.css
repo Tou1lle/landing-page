@@ -10,7 +10,7 @@ body {
 .hero {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: black;
     padding: 20px 100px;
 }
 
@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
 }
 
-ul {
+.emails {
     display: flex;
     margin: 0;
     padding: 0;
@@ -31,6 +31,7 @@ ul {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
+    text-decoration: underline;
 }
 
 .header-links {
@@ -54,7 +55,7 @@ ul {
 .secondary-text {
     color: #e5e7eb;
     font-size: 18px; 
-    margin-top: -50px;
+    margin-top: -40px;
 }
 
 .button {
@@ -78,13 +79,15 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-color: #7d838f;
+    margin-top: 40px;
+    margin-right: 50px;
 }
 
 .img-placeholder {
-    color: white;
+    border: 10px solid white;
 }
 
 .main-title {
@@ -121,7 +124,7 @@ ul {
 }
 
 .side-image {
-    border: 5px solid #3882f6;
+    border: 5px solid black;
     border-radius: 15px;
     width: 150px;
     height: 150px;
@@ -163,7 +166,7 @@ ul {
 
 .backround-fourth {
     display: flex;
-    background-color: #3882f6;
+    background-color: black;
     align-content: center;
     padding: 30px 100px;
     border-radius: 20px;
@@ -178,6 +181,7 @@ ul {
 
 .random {
     font-weight: 600;
+    font-size: 50px;
 }
 
 /*This section contains footer*/
@@ -185,7 +189,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1f2937;
+    background-color: black;
     padding-top: 30px;
     padding-bottom: 30px;
 }
