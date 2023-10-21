@@ -122,3 +122,29 @@ ul {
     width: 150px;
     height: 150px;
 }
+
+/*This section will contain a motivational quote*/
+.quote {
+    text-align: center;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column; 
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote-text {
+    max-width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    color: black;
+    font-weight: 600;
+    margin-left: 500px;
+    margin-top: 30px;
+}
