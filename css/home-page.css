@@ -66,7 +66,7 @@ ul {
 }
 
 .button.second-button {
-    border: white;
+    border: 2px solid white;
 }
 
 .main-image {
@@ -85,4 +85,40 @@ ul {
 
 .main-title {
     max-width: 600px;
+}
+
+/*Personal information will be alligned in the middle with 4 containers*/
+.personal-information {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.personal-information-container {
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.side-image {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
 }
