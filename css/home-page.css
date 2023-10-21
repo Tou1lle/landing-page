@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 0 100px;
+    padding: 20px 100px;
 }
 
 .header {
@@ -39,7 +39,10 @@ ul {
 }
 
 .personal-header {
-    max-width: 400px;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .big-text {
@@ -52,4 +55,34 @@ ul {
     color: #e5e7eb;
     font-size: 18px; 
     margin-top: -50px;
+}
+
+.button {
+    background-color: #3882f6;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.button.second-button {
+    border: white;
+}
+
+.main-image {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: #7d838f;
+}
+
+.img-placeholder {
+    color: white;
+}
+
+.main-title {
+    max-width: 600px;
 }
